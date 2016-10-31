@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:link:a04518aa-e4b7-4d41-a222-dceefb1d8da2'
+  module:
+    - block_content
+  theme:
+    - mybartik
+id: mybartik_gugl
+theme: mybartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:a04518aa-e4b7-4d41-a222-dceefb1d8da2'
+settings:
+  id: 'block_content:a04518aa-e4b7-4d41-a222-dceefb1d8da2'
+  label: гугл
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

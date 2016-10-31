@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:pdf:c71dad43-0155-4640-a08f-b3e1c9482acb'
+  module:
+    - block_content
+  theme:
+    - mybartik
+id: mybartik_knigi
+theme: mybartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:c71dad43-0155-4640-a08f-b3e1c9482acb'
+settings:
+  id: 'block_content:c71dad43-0155-4640-a08f-b3e1c9482acb'
+  label: Книги
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

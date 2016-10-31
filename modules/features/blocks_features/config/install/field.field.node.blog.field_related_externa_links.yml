@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_related_externa_links
+    - node.type.blog
+  module:
+    - link
+id: node.blog.field_related_externa_links
+field_name: field_related_externa_links
+entity_type: node
+bundle: blog
+label: 'Related externa links'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link
