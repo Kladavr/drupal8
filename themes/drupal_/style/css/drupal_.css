@@ -1,0 +1,12 @@
+.layout-container {
+  max-width: 960 px;
+  margin: 0 auto;
+}
+.layout-container #block-drupal-account-menu {
+  float: right;
+  margin: 5px;
+}
+.layout-container #block-drupal-main-menu {
+  float: right;
+  margin: 5px;
+}
