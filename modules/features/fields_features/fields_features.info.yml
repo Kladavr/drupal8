@@ -1,0 +1,14 @@
+name: fields_features
+type: module
+core: 8.x
+dependencies:
+  - block
+  - datetime
+  - field
+  - help
+  - image
+  - link
+  - system
+  - telephone
+  - text
+  - user
