@@ -1,0 +1,13 @@
+name: views_feature
+type: module
+core: 8.x
+dependencies:
+  - block
+  - datetime
+  - help
+  - node
+  - system
+  - taxonomy
+  - user
+  - views
+version: 8.x-1.0
